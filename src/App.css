@@ -1,0 +1,16 @@
+header{
+  background-color: rgb(0, 112, 66);
+  height: 10vh;
+}
+main{
+  height: calc(100vh - 10vh - 5vh);
+  background-color: rgb(65, 67, 77);
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(0, 112, 66) ;
+  color: white;
+  height: 5vh;
+}
