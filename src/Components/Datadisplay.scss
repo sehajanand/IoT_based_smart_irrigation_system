@@ -1,0 +1,14 @@
+.data-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.data-display>p {
+    color: rgb(35, 196, 142);
+    font-weight: bolder;
+    font-size: large;
+    margin: 10px 0;
+}
