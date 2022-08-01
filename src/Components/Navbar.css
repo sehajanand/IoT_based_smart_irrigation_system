@@ -8,12 +8,18 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 10vh;
+  height: 33vh;
+}
+
+nav > img {
+  width: 60%;
+  height: 80%;
 }
 
 #scroll {
-  color: white;
-  font-size: x-large;
+  color: #46989e;
+  font-size: xx-large;
   display: inline-block;
+  font-weight: bolder;
 }
 /*# sourceMappingURL=Navbar.css.map */

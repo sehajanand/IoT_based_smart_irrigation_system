@@ -1,10 +1,12 @@
 import React from 'react';
 import './Navbar.css';
 
+import logo from '../Assets/Logo2-removebg-preview.png';
+
 export default function Navbar() {
   return (
     <>
-    <nav ><p id='scroll'>Smart Irrigation System</p></nav>
+    <nav ><img src={logo} alt="LOGO" /></nav>
     </>
   )
 }
