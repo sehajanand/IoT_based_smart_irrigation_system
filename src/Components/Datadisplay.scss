@@ -29,6 +29,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .humidity-display-box {
     height: 25vh;
     width: 77vw;
@@ -42,7 +43,7 @@
     box-shadow: 4px 4px 2px 2px #d5d5d5;
 }
 
-.motor-display-box{
+.motor-display-box {
     height: 25vh;
     width: 77vw;
     border: 2px solid #b2a7a7;
@@ -54,7 +55,8 @@
     justify-content: space-around;
     box-shadow: 4px 4px 2px 2px #d5d5d5;
 }
-.temperature-display-box{
+
+.temperature-display-box {
     height: 25vh;
     width: 77vw;
     border: 2px solid #b2a7a7;
@@ -64,9 +66,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 4px 4px 2px 2px #d5d5d5;   
+    box-shadow: 4px 4px 2px 2px #d5d5d5;
 }
-.luminosity-display-box{
+
+.luminosity-display-box {
     height: 25vh;
     width: 77vw;
     border: 2px solid #b2a7a7;
@@ -76,9 +79,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 4px 4px 2px 2px #d5d5d5;   
+    box-shadow: 4px 4px 2px 2px #d5d5d5;
 }
-.motor-button-on{
+
+.motor-button-on {
     padding: 9px 33px;
     color: white;
     font-weight: bolder;
@@ -87,7 +91,8 @@
     font-size: x-large;
     background-color: rgb(70, 152, 158);
 }
-.motor-button-off{
+
+.motor-button-off {
     padding: 9px 33px;
     color: white;
     font-weight: bolder;
@@ -96,6 +101,7 @@
     font-size: x-large;
     background-color: #878787;
 }
+
 .display-box-heading {
     margin: -17px 0;
     font-size: large;
@@ -104,18 +110,29 @@
 .humidity-display {
     font-size: 3rem;
 }
-.luminosity-display{
+
+.luminosity-display {
     font-size: 3rem;
 }
-.semicircle-percent-value{
+
+.semicircle-percent-value {
     width: 100%;
-left: 0px;
-text-align: center;
-bottom: 0px;
-position: absolute;
-font-weight: bolder;
-font-size: x-large;
+    left: 0px;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+    font-weight: bolder;
+    font-size: x-large;
 }
-em{
+
+em {
     font-weight: bold;
+}
+
+.condition-display {
+    margin-top: 37px;
+    color: white;
+    font-weight: bold;
+    border-radius: 48px;
+    padding: 6px;
 }

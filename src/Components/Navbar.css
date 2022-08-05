@@ -79,7 +79,9 @@ ul > li {
 
 ul > li > a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
+  cursor: pointer;
   color: black;
+  font-size: larger;
 }
 /*# sourceMappingURL=Navbar.css.map */

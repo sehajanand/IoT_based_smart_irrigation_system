@@ -9,13 +9,26 @@ export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
   const toggleShow=()=>{
     setToggleValue(!toggleValue);
-    console.log(toggleValue);
+  };
+  const aboutScroll=()=>{
+    window.scrollTo({
+      top:1515.199951171875,
+      left:0,
+      behavior:'smooth'
+    });
+  };
+  const contactScroll=()=>{
+    window.scrollTo({
+      top:2197.60009765625,
+      left:0,
+      behavior:'smooth'
+    });
   };
   return (
     <>
     <nav ><img src={logo} alt="LOGO" /><p className='header-heading'>Irrygate</p><div onClick={toggleShow} ><Hamburger toggled={isOpen} toggle={setOpen}  /></div> 
       </nav>
-          <div className="hamburger-nav" style={(toggleValue)===true?{display:'block'}:{display:'none'}} ><ul><li><a href="/">Home</a></li><li><a href="/">About</a></li><li><a href="/">Contact</a></li></ul></div>
+          <div className="hamburger-nav" style={(toggleValue)===true?{display:'block'}:{display:'none'}} ><ul><li><a  onClick={aboutScroll}>About</a></li><li><a  onClick={contactScroll}>Contact</a></li></ul></div>
     </>
   )
 }

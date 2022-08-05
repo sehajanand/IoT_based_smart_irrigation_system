@@ -1,4 +1,6 @@
 import './App.css';
+import About from './Components/About';
+import Contact from './Components/Contact';
 import Datadisplay from './Components/Datadisplay';
 import Navbar from './Components/Navbar';
 
@@ -8,7 +10,7 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main><Datadisplay /></main>
+      <main><Datadisplay /><About/><Contact/></main>
       <footer> Copyright &copy; Team NIT Srinagar </footer>
     </>
   );

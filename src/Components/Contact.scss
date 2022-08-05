@@ -1,0 +1,25 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact>h1{
+    text-align: center;
+}
+.contact-box{
+    height: 65vh;
+    width: 89vw;
+    text-align: center;
+    border: 2px solid #b2a7a7;
+    margin: 60px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 4px 4px 2px 2px #d5d5d5;
+}
+.contact-box>em{
+    font-weight: bold;
+}

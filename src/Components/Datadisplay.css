@@ -147,4 +147,12 @@
 em {
   font-weight: bold;
 }
+
+.condition-display {
+  margin-top: 37px;
+  color: white;
+  font-weight: bold;
+  border-radius: 48px;
+  padding: 6px;
+}
 /*# sourceMappingURL=Datadisplay.css.map */
