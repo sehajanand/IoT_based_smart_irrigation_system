@@ -14,7 +14,7 @@
 }
 
 .humidity-display-box {
-  height: 25vh;
+  height: 29vh;
   width: 77vw;
   border: 2px solid #b2a7a7;
   margin: 60px 0;
@@ -36,7 +36,7 @@
 }
 
 .motor-display-box {
-  height: 25vh;
+  height: 29vh;
   width: 77vw;
   border: 2px solid #b2a7a7;
   margin: 60px 0;
@@ -58,7 +58,7 @@
 }
 
 .temperature-display-box {
-  height: 25vh;
+  height: 29vh;
   width: 77vw;
   border: 2px solid #b2a7a7;
   margin: 60px 0;
@@ -80,7 +80,7 @@
 }
 
 .luminosity-display-box {
-  height: 25vh;
+  height: 29vh;
   width: 77vw;
   border: 2px solid #b2a7a7;
   margin: 60px 0;
