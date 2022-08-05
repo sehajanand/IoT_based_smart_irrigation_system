@@ -25,15 +25,6 @@ nav > img {
   color: #007042;
 }
 
-ul {
-  display: none;
-  padding: 0px;
-  margin: 0px;
-  width: 200px;
-  height: 90%;
-  position: absolute;
-}
-
 #slide_menu li {
   list-style: none;
 }
@@ -69,5 +60,26 @@ ul {
   margin-top: 40px;
   text-align: center;
   font-family: helvetica;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 /*# sourceMappingURL=Navbar.css.map */

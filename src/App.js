@@ -9,7 +9,7 @@ function App() {
         <Navbar />
       </header>
       <main><Datadisplay /></main>
-      <footer>&copy; Copyright NIT Srinagar </footer>
+      <footer> Copyright &copy; Team NIT Srinagar </footer>
     </>
   );
 }
