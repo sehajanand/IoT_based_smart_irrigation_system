@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": " irrygate",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}

@@ -4,7 +4,7 @@ import { db } from '../Firebase';
 import { ref, onValue } from "firebase/database";
 import './Datadisplay.css';
 export default function Datadisplay() {
-    let [motorBoolean, setMotorBoolean] = useState(false);
+    let [motorBoolean, setMotorBoolean] = useState(true);
     let [tempValue, setTempValue] = useState(20);
     let [luminousIntensity, setLuminousIntensity] = useState(0);
     let [humidityValue, setHumidityValue] = useState(0);
